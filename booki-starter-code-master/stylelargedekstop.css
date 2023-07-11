@@ -1,0 +1,10 @@
+/* large dekstop*/
+@media (min-width:1440px){
+
+    body{
+        display:flex ;
+        justify-content: center;
+    }
+   
+  
+}

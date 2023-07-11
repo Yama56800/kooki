@@ -1,0 +1,107 @@
+/* tablette */
+@media  (min-width:769px) and (max-width: 1024px)  {
+    .filtre{
+       margin-top: 10px;
+    }
+    .nav{
+        display: flex;
+    }
+    .categorie{
+        right: 60px;
+        padding-top: 30px;
+    }
+    .hebergements {
+        width: 100%;
+    }
+    .hebergements .card {
+        width: 23vw;
+        
+        
+    }
+    .hebergements img {
+        width: 22vw;
+    }
+    .hebergements-and-populaires {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    .column-first{
+        display: block;
+        justify-content: center;
+    }
+    .afficher{
+        padding-left: 20px;
+    }
+    .populaires {
+        margin: 0;
+        margin-top: 50px;
+        width: 100%;
+        padding: 20px;
+    }
+    .populaires-cards .card {
+       width: 25.5vw;
+       margin: 6px;
+       
+       
+    }
+    .populaires-cards{
+        display: flex;
+        flex-direction: row;
+        
+        width: 800px;  
+        gap: 10px;
+        
+        
+        
+    }
+    .populaires-cards .card-title {
+        font-size: 14px;
+    }
+    .populaires-cards .card-subtitle {
+        font-size: 13px;
+        
+        
+    }
+
+
+    .activite-marseille{
+        position: relative;
+    }
+    .activite-card img{
+        width: 20vw;
+        height: 200px;
+        border-radius: 20px 20px 0px 0px ;
+      
+        left: 1px;
+        top: -20px;
+        
+        display: flex;
+
+        
+    
+    } 
+    .activite-card{
+        flex-wrap: nowrap;
+    }
+    .activite-card .card-title{
+        height: 30px;
+
+    }
+    .activite-card .card{
+        width: 197.5px;
+        height: 280px;
+        
+        
+    }
+    .card-activite{
+        width: 20vw;
+    }
+
+}
+/* a voir si je peut garder cette section */
+@media  (min-width:769px) and (max-width: 958px) {
+    .hebergements .card { 
+        height: 240px;  
+    }
+}
